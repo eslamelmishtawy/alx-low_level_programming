@@ -24,7 +24,11 @@ int main(void)
 					{
 						continue;
 					}
-					if ( i == k && j == l)
+					if ( i == k && j == l )
+					{
+						continue;
+					}
+					if ( j > l )
 					{
 						continue;
 					}
