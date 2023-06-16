@@ -10,16 +10,13 @@ int main(void)
 	int i;
 	char alpha[] = "abcdefghijklmnopqrstuvwxyz";
 
-	for (i = 0; i < 52; i++)
+	for (i = 0; i < 24; i++)
 	{
 		if (alpha[i] == 'q' || alpha[i] == 'e')
 		{
-			
+			continue;
 		}
-		else
-		{
-			putchar(alpha[i]);
-		}
+		putchar(alpha[i]);
 	}
 	putchar('\n');
 	return (0);
