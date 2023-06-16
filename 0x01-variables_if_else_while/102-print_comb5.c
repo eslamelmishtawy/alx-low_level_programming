@@ -37,6 +37,10 @@ int main(void)
 					putchar(' ');
 					putchar(k);
 					putchar(l);
+					if (i == 57)
+					{
+						break;
+					}
 					putchar(',');
 					putchar(' ');
 				}
