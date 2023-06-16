@@ -12,13 +12,13 @@ int main(void)
 	int k;
 	int l;
 
-	for ( i = 48; i < 58; i++ )
+	for (i = 48; i < 58; i++)
 	{
-		for ( j = 48; j < 58; j++ )
+		for (j = 48; j < 58; j++)
 		{
-			for ( k = 48; k < 58; k++ )
+			for (k = 48; k < 58; k++)
 			{
-				for ( l = 48; l < 58; l++ )
+				for (l = 48; l < 58; l++)
 				{
 					if ( i == j && j == k && k == l )
 					{
