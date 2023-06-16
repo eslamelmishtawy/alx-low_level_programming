@@ -20,15 +20,11 @@ int main(void)
 			{
 				for (l = 48; l < 58; l++)
 				{
-					if ( i == j && j == k && k == l )
+					if (i == j && j == k && k == l)
 					{
 						continue;
 					}
-					if ( i == k && j == l )
-					{
-						continue;
-					}
-					if ( j > l )
+					if (i == k && j == l)
 					{
 						continue;
 					}
