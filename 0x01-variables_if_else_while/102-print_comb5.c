@@ -24,10 +24,6 @@ int main(void)
 					{
 						continue;
 					}
-					if (i == k && j == l)
-					{
-						continue;
-					}
 					if (((j - 48) + ((i - 48) * 10)) >= ((l - 48) + ((k - 48) * 10)))
 					{
 						continue;
