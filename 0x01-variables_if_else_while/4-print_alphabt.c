@@ -12,7 +12,7 @@ int main(void)
 
 	for (i = 0; i < 52; i++)
 	{
-		if (alpha[i] == 'q' || alpha[i] = 'e')
+		if (alpha[i] == 'q' || alpha[i] == 'e')
 		{
 			continue;
 		}
