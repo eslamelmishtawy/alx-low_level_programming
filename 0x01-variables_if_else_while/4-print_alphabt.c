@@ -14,9 +14,12 @@ int main(void)
 	{
 		if (alpha[i] == 'q' || alpha[i] == 'e')
 		{
-			continue;
+			
 		}
-		putchar(alpha[i]);
+		else
+		{
+			putchar(alpha[i]);
+		}
 	}
 	putchar('\n');
 	return (0);
