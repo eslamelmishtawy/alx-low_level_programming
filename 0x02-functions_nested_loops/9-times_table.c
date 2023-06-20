@@ -33,7 +33,7 @@ void times_table(void)
 					continue;
 				}
 				putchar(',');
-				
+				putchar(' ');
 			}
 			else
 			{
@@ -45,7 +45,10 @@ void times_table(void)
 				}
 				putchar(',');
 				putchar(' ');
-				putchar(' ');
+				if(i * (j + 1) < 10)
+				{
+					putchar(' ');
+				}
 			}
 		}
 	}
