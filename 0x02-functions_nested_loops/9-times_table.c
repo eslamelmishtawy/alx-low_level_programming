@@ -2,12 +2,12 @@
 #include <ctype.h>
 #include <stdlib.h>
 #include "main.h"
+
 /**
  * times_table - prints all alphabets.
  *
  * Return: always 0
  */
-
 void times_table(void)
 {
 	int i;
@@ -36,12 +36,12 @@ void times_table(void)
 			{
 				putchar('\n');
 				continue;
-			}	
+			}
 			putchar(',');
 			putchar(' ');
-			if(x * (y + 1) < 10)
+			if (x * (y + 1) < 10)
 			{
-                               	putchar(' ');
+				putchar(' ');
 			}
 		}
 	}
