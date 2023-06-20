@@ -4,19 +4,24 @@
 
 /**
  * print_to_98 - prints all alphabets.
- * @n: first number
+ * @i: first number
  * Return: always 0
  */
-void print_to_98(int n)
+void print_to_98(int i)
 {
-	int i;
 
-	for (i = n; i < 99; i++)
+	while (i != 98)
 	{
 		if (i >= 10)
 		{
 			putchar((i / 10) + '0');
 			putchar((i % 10) + '0');
+		}
+		else if (i >= 100)
+		{
+			putchar((i / 10) + '0');
+			putchar((i % 10) + '0');
+			putchar((i % 100) + '0');
 		}
 		else
 		{
@@ -29,5 +34,13 @@ void print_to_98(int n)
 		}
 		putchar(',');
 		putchar(' ');
+		if (i > 98)
+		{
+			i--;
+		}
+		else
+		{
+			i++;
+		}
 	}
 }
