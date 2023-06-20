@@ -27,28 +27,21 @@ void times_table(void)
 			{
 				putchar((a / 10) + '0');
 				putchar((a % 10) + '0');
-				if (y == 9)
-				{
-					putchar('\n');
-					continue;
-				}
-				putchar(',');
-				putchar(' ');
 			}
 			else
 			{
 				putchar(a + '0');
-				if (y == 9)
-				{
-					putchar('\n');
-					continue;
-				}
-				putchar(',');
-				putchar(' ');
-				if(x * (y + 1) < 10)
-				{
-					putchar(' ');
-				}
+			}
+			if (y == 9)
+			{
+				putchar('\n');
+				continue;
+			}	
+			putchar(',');
+			putchar(' ');
+			if(x * (y + 1) < 10)
+			{
+                               	putchar(' ');
 			}
 		}
 	}
