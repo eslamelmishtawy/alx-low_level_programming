@@ -25,7 +25,7 @@ void times_table(void)
 			a = x * y;
 			a = a + 48;
 			putchar(a);
-			if (y > 9)
+			if (y == 9)
 			{
 				putchar('\n');
 			}
