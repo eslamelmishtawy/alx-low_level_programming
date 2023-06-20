@@ -13,6 +13,7 @@ void print_to_98(int i)
 	{
 		putchar((i / 10) + '0');
 		putchar((i % 10) + '0');
+		putchar('\n');
 	}
 	while (i != 98)
 	{
