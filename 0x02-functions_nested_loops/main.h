@@ -1,3 +1,5 @@
+#include <stdio>
+
 void print_alphabet(void)
 {
 	char a[] = "abcdefghijklmnopqrstuvwxyz";
