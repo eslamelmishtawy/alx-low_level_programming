@@ -30,12 +30,11 @@ void times_table(void)
 				if (y == 9)
 				{
 					putchar('\n');
+					continue;
 				}
-				else
-				{
-					putchar(',');
-					putchar(' ');
-				}
+				putchar(',');
+				putchar(' ');
+				
 			}
 			else
 			{
@@ -43,13 +42,11 @@ void times_table(void)
 				if (y == 9)
 				{
 					putchar('\n');
+					continue;
 				}
-				else
-				{
-					putchar(',');
-					putchar(' ');
-					putchar(' ');
-				}
+				putchar(',');
+				putchar(' ');
+				putchar(' ');
 			}
 		}
 	}
