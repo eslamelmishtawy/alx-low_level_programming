@@ -23,7 +23,7 @@ void times_table(void)
 			x = i - 48;
 			y = j - 48;
 			a = x * y;
-			if (a > 10)
+			if (a >= 10)
 			{
 				putchar((a / 10) + '0');
 				putchar((a % 10) + '0');
@@ -33,7 +33,6 @@ void times_table(void)
 					continue;
 				}
 				putchar(',');
-				putchar(' ');
 				
 			}
 			else
