@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <ctype.h>
 #include <stdlib.h>
-
+#include "main.h"
 /**
  * times_table - prints all alphabets.
  *
