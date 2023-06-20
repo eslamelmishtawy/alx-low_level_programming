@@ -16,7 +16,7 @@ int print_last_digit(int c)
 	n = (abs(c) % 10 + (abs(c) % 10) * 10);
 	if (c < 0)
 	{
-		return (-1 * n)
+		return (-1 * n);
 	}
 	return (n);
 }
