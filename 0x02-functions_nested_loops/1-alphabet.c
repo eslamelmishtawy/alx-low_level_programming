@@ -1,5 +1,8 @@
 #include <stdio.h>
 
+/*
+ * print_alphabet - prints all alphabets
+ */
 void print_alphabet()
 {
 	char a[] = "abcdefghijklmnopqrstuvwxyz";
