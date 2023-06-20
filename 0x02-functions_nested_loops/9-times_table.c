@@ -23,8 +23,7 @@ void times_table(void)
 			x = i - 48;
 			y = j - 48;
 			a = x * y;
-			a = a + 48;
-			putchar(a);
+			_putchar(a);
 			if (y == 9)
 			{
 				putchar('\n');
