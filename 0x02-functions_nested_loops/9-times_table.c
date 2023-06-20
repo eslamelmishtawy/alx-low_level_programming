@@ -40,10 +40,6 @@ void times_table(void)
 			{
 				putchar(',');
 				putchar(' ');
-				if (i == 48 || j - 48 < 10)
-				{
-					putchar(' ');
-				}
 			}
 		}
 	}
