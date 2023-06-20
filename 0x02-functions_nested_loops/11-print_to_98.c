@@ -24,9 +24,7 @@ void print_to_98(int i)
 		}
 		else if (i >= 100)
 		{
-			putchar((i / 10) + '0');
-			putchar((i % 10) + '0');
-			putchar((i % 100) + '0');
+			printf("%d", i);
 		}
 		else
 		{
@@ -34,6 +32,7 @@ void print_to_98(int i)
 		}
 		if (i == 98)
 		{
+			printf("%d", i);
 			putchar('\n');
 			break;
 		}
