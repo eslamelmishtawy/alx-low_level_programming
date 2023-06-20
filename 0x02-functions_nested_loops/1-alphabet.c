@@ -1,9 +1,10 @@
 #include <stdio.h>
 
 /*
- * print_alphabet - prints all alphabets
+ * print_alphabet - prints all alphabets.
+ * Return: always 0 
  */
-void print_alphabet()
+void print_alphabet(void)
 {
 	char a[] = "abcdefghijklmnopqrstuvwxyz";
 	int i;
