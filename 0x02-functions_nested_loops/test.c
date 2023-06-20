@@ -8,7 +8,7 @@
  * Return: always 0
  */
 
-void jack_bauer(void)
+int main(void)
 {
 	int i;
 	int j;
@@ -37,4 +37,5 @@ void jack_bauer(void)
 			}
 		}
 	}
+	return 0;
 }
