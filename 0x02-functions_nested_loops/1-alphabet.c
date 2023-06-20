@@ -1,13 +1,13 @@
 #include <stdio.h>
-#include "main.h"
 
-/**
- * main - Entry point
- *
- * Return: Always 0 (Success)
- */
-int main(void)
+void print_alphabet()
 {
-	print_alphabet();
-	return (0);
+	char a[] = "abcdefghijklmnopqrstuvwxyz";
+	int i;
+
+	for (i = 0; i < 26; i++)
+	{
+		putchar(a[i]);
+	}
+	putchar('\n');
 }
