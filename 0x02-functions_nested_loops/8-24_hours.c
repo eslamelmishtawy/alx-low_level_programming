@@ -4,7 +4,7 @@
 
 /**
  * jack_bauer - prints all alphabets.
- * @c: char under test
+ * 
  * Return: always 0
  */
 
