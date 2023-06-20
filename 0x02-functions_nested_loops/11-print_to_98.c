@@ -20,7 +20,7 @@ void print_to_98(int n)
 		}
 		else
 		{
-			putchar(' + '0');
+			putchar(i + '0');
 		}
 		if (i == 98)
 		{
