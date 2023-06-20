@@ -2,6 +2,7 @@
 
 /**
  * print_alphabet - prints all alphabets.
+ *
  * Return: always 0 
  */
 
