@@ -30,7 +30,6 @@ void times_table(void)
 			}
 			else
 			{
-				putchar(' ');
 				putchar(a + '0');
 			}
 			if (y == 9)
@@ -41,6 +40,10 @@ void times_table(void)
 			{
 				putchar(',');
 				putchar(' ');
+				if (i > 48)
+				{
+					putchar(' ');
+				}
 			}
 		}
 	}
