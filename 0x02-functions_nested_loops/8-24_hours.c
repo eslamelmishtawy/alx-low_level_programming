@@ -4,7 +4,7 @@
 
 /**
  * jack_bauer - prints all alphabets.
- * 
+ *
  * Return: always 0
  */
 
