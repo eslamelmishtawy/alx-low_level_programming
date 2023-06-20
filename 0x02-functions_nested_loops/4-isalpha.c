@@ -8,7 +8,7 @@
  * Return: always 0
  */
 
-int _ialpha(char c)
+int _isalpha(int c)
 {
 	if (isalpha(c) > 0)
 	{
