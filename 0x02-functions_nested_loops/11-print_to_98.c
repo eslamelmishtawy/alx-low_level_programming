@@ -7,7 +7,7 @@
  * @i: first number
  * Return: always 0
  */
-void print_to_98(int i)
+void print_to_98(int n)
 {
 	int i;
 	
