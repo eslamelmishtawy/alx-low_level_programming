@@ -31,8 +31,11 @@ void times_table(void)
 				{
 					putchar('\n');
 				}
-				putchar(',');
-				putchar(' ');
+				else
+				{
+					putchar(',');
+					putchar(' ');
+				}
 			}
 			else
 			{
@@ -41,9 +44,12 @@ void times_table(void)
 				{
 					putchar('\n');
 				}
-				putchar(',');
-				putchar(' ');
-				putchar(' ');
+				else
+				{
+					putchar(',');
+					putchar(' ');
+					putchar(' ');
+				}
 			}
 		}
 	}
