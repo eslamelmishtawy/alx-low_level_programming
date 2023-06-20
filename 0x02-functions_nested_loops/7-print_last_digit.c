@@ -13,7 +13,7 @@ int print_last_digit(int c)
 {
 	int n;
 
-	n = (abs(c) % 10 + (abs(c) % 10) * 10);
+	n = (c % 10 + (c % 10) * 10);
 	if (c < 0)
 	{
 		return (-1 * n);
