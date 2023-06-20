@@ -14,6 +14,7 @@ void times_table(void)
 	int j;
 	int x;
 	int y;
+	int a;
 
 	for (i = 48; i < 51; i++)
 	{
@@ -22,11 +23,11 @@ void times_table(void)
 			x = i - 48;
 			y = j - 48;
 			a = x * y;
-			a = a + 48
+			a = a + 48;
 			putchar(a);
 			if (y > 9)
 			{
-				putchar('\n')
+				putchar('\n');
 			}
 			else
 			{
