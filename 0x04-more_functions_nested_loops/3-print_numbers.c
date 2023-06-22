@@ -4,8 +4,6 @@
 
 /**
  * print_numbers - prints all alphabets.
- * @a: char under test
- * @c: char under test
  * Return: always 0
  */
 
