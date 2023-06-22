@@ -8,7 +8,7 @@
  * Return: always 0
  */
 
-void main(void)
+int main(void)
 {
 	int j;
 
@@ -36,4 +36,5 @@ void main(void)
 		}
 		putchar(' ');
 	}
+	return (0);
 }
