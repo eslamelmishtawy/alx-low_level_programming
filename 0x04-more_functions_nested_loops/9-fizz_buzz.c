@@ -32,7 +32,7 @@ int main(void)
 		}
 		if (j == 100)
 		{
-			putchar('\n')
+			putchar('\n');
 			continue;
 		}
 		putchar(' ');
