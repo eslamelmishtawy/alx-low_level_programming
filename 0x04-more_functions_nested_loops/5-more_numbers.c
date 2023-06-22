@@ -7,7 +7,7 @@
  * Return: always 0
  */
 
-void more_numbers(void)
+void main(void)
 {
 	int i;
 	int j;
@@ -16,8 +16,12 @@ void more_numbers(void)
 	{
 		for (i = 0; i < 15; i++)
 		{
-			putchar(i + '0');
+			if (i > 9)
+			{
+				putchar(i / 10 + '0');
+			}
+			putchar(i % 10 + '0');
 		}
+		putchar('\n');
 	}
-	putchar('\n');
 }
