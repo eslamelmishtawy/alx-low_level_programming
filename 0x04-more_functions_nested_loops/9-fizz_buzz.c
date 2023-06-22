@@ -32,7 +32,8 @@ int main(void)
 		}
 		if (j == 100)
 		{
-			break;
+			putchar('\n')
+			continue;
 		}
 		putchar(' ');
 	}
