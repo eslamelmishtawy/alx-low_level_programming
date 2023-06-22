@@ -3,7 +3,7 @@
 #include "main.h"
 
 /**
- * print_traingle - prints all alphabets.
+ * print_triangle - prints all alphabets.
  * @n: number of line
  * Return: always 0
  */
