@@ -8,7 +8,7 @@
  * Return: always 0
  */
 
-int _isupper(int c)
+int _isdigit(int c)
 {
 	if (isdigit(c) > 0)
 	{
