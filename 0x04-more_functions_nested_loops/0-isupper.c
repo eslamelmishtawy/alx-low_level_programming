@@ -3,7 +3,7 @@
 #include "main.h"
 
 /**
- * _islower - prints all alphabets.
+ * _isupper - prints all alphabets.
  * @c: char under test
  * Return: always 0
  */
