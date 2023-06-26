@@ -6,7 +6,7 @@
  *
  * Return: return n
  */
-int _puts(char *a)
+void _puts(char *a)
 {
 	int i;
 
