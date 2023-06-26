@@ -6,7 +6,7 @@
  *
  * Retrun: return n
  */
-int swap_int(char *a)
+int _strlen(char *a)
 {
 	return (strlen(*a));
 }
