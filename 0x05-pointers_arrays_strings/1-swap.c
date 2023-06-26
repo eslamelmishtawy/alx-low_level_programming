@@ -1,4 +1,4 @@
-i#include "main.h"
+#include "main.h"
 
 /**
  * swap_int - reset value on n to 98
