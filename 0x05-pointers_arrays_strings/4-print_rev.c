@@ -1,4 +1,4 @@
-#include "main.h"
+#include <string.h>
 
 /**
  * print_rev - reset value on n to 98
@@ -10,7 +10,7 @@ void print_rev(char *a)
 {
 	int i;
 
-	i = _strlen(a);
+	i = strlen(a);
 	while (a[i] != '\0')
 	{
 		putchar(a[i]);
