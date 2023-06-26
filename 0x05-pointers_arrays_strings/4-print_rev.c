@@ -1,5 +1,5 @@
 #include <string.h>
-
+#include "main.h"
 /**
  * print_rev - reset value on n to 98
  * @a: pointer to value of n
