@@ -2,7 +2,7 @@
 
 /**
  * reset_to_98 - reset value on n to 98
- * @*n: pointer to value of n
+ * @n: pointer to value of n
  *
  * Retrun: return n
  */
