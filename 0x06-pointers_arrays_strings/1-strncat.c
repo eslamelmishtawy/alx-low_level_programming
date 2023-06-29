@@ -1,13 +1,13 @@
 #include "main.h"
 #include <string.h>
 /**
- * _strcat - reset value on n to 98
+ * _strncat - reset value on n to 98
  * @a: pointer to value of n
  * @b: c
  *
  * Return: return n
  */
-char *_strcat(char *a, char *b)
+char *_strncat(char *a, char *b)
 {
-	return (strcat(a, b));
+	return (strncat(a, b));
 }
