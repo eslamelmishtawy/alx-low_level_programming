@@ -5,9 +5,9 @@
  * @a: pointer to value of n
  * @b: c
  *
- * Retrun: return n
+ * Return: return n
  */
 char *_strcat(char *a, char *b)
 {
-	return strcat(a, b);
+	return (strcat(a, b));
 }
