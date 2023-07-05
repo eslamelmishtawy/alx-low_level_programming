@@ -15,7 +15,7 @@ int t(int i, int j)
 		return (1);
 	if (i % j == 0 && j > 0)
 		return (0);
-	return (t(i,j - 1));
+	return (t(i, j - 1));
 }
 /**
  * is_prime_number - check the code
