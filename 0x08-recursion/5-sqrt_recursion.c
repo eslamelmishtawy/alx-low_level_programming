@@ -6,7 +6,7 @@ int t(int i, int j)
 {
 	if (i - j == 0)
 	{
-		return (0);
+		return (1);
 	}
 	return (t(i - j, j + 2) + 1);
 }
