@@ -20,7 +20,7 @@ int t(int i, int j)
 /**
  * _sqrt_recursion - check the code
  * @n: s
- * 
+ *
  * Return: Always 0.
  */
 int _sqrt_recursion(int n)
