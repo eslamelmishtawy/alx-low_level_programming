@@ -10,7 +10,6 @@ int t(int i, int j)
 	}
 	return (t(i - j, j + 2) + 1);
 }
-
 /**
  * _sqrt_recursion - check the code
  * @n: s
@@ -19,5 +18,5 @@ int t(int i, int j)
  */
 int _sqrt_recursion(int n)
 {
-	t(n, 1);
+	return (t(n, 1));
 }
