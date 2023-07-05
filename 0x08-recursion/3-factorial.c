@@ -4,11 +4,11 @@
 
 /**
  * factorial - check the code
- * @s: s
+ * @n: s
  *
  * Return: Always 0.
  */
-int factorial(char *s)
+int factorial(int n)
 {
 	if (n < 0)
 	{
