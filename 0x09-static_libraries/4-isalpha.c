@@ -1,21 +1,15 @@
-#include <stdio.h>
-#include <ctype.h>
 #include "main.h"
-
 /**
- * _isupper - prints all alphabets.
- * @c: char under test
- * Return: always 0
+ * _isalpha - Check if character is a alphabet character.
+ * @c: type int character
+ * Return: 1 if letter, lowercase or uppercase, and 0 otherwise
  */
 
 int _isalpha(int c)
 {
-	if (isupper(c) > 0)
-	{
+	if ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'))
 		return (1);
-	}
+
 	else
-	{
 		return (0);
-	}
 }

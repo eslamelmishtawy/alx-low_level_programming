@@ -1,14 +1,15 @@
-#include <stdio.h>
-#include <ctype.h>
 #include "main.h"
 
 /**
- * _isupper - prints all alphabets.
- * @c: char under test
- * Return: always 0
+ * _strlen - returns the length of a string.
+ * @s: input stringeturn.
+ * Return: length of a string.
  */
-
 int _strlen(char *s)
 {
-	return (0);
+	int count = 0;
+
+	while (*(s + count) != '\0')
+		count++;
+	return (count);
 }

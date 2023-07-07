@@ -1,14 +1,17 @@
-#include <stdio.h>
-#include <ctype.h>
 #include "main.h"
-
 /**
- * _isupper - prints all alphabets.
- * @c: char under test
- * Return: always 0
+ * _abs - compute the absolute value of an integer
+ * @n: int type number
+ * Return: absolute value of @n
  */
-
 int _abs(int n)
 {
-	return (0);
+	if (n < 0)
+	{
+		return (n * -1);
+	}
+	else
+	{
+		return (n);
+	}
 }

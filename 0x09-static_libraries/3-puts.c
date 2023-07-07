@@ -1,13 +1,19 @@
-#include <stdio.h>
-#include <ctype.h>
 #include "main.h"
 
 /**
- * _isupper - prints all alphabets.
- * @c: char under test
- * Return: always 0
+ * _puts - prints a string, followed by a new line,
+ * @str: pointer to the string to print
+ * Return: void
  */
 
-void _puts(char *s)
+void _puts(char *str)
 {
+	int i = 0;
+
+	while (str[i])
+	{
+		_putchar(str[i]);
+		i++;
+	}
+	_putchar('\n');
 }
