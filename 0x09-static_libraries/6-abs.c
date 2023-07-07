@@ -8,14 +8,7 @@
  * Return: always 0
  */
 
-int _abs(int c)
+int _abs(int n)
 {
-	if (isupper(c) > 0)
-	{
-		return (1);
-	}
-	else
-	{
-		return (0);
-	}
+	return (0);
 }
