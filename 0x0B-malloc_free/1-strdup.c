@@ -1,4 +1,5 @@
-#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
 /**
  * main - main
  * @str: argc
@@ -9,11 +10,11 @@ char *_strdup(char *str)
 {
 	char *ar;
 
-	if (*str == NULL)
+	if (str == NULL)
 	{
 		return (NULL);
 	}
-	ar = malloc(n * sizeof(char));
+	ar = malloc(sizeof(char) * strlen(str));
 
 	return (ar);
 }
