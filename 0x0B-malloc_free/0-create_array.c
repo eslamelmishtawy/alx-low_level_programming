@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <stdlib.h>
 /**
  * create_array - main
  * @s: s
@@ -10,12 +10,12 @@ char *create_array(unsigned int s, char v)
 	char *ar;
 	int i;
 
-	ar = malloc(sizeof(char) * size);
-	if (size == 0 || ar = NULL)
+	ar = malloc(sizeof(char) * s);
+	if (s == 0 || ar = NULL)
 	{
 		return (NULL);
 	}
-	for (i = 0; i < size; i++)
+	for (i = 0; i < s; i++)
 	{
 		ar[i] = v;
 	}
