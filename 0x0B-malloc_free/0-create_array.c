@@ -8,10 +8,10 @@
 char *create_array(unsigned int s, char v)
 {
 	char *ar;
-	int i;
+	unsigned int i;
 
 	ar = malloc(sizeof(char) * s);
-	if (s == 0 || ar = NULL)
+	if (s == 0 || ar == NULL)
 	{
 		return (NULL);
 	}
