@@ -1,9 +1,9 @@
 #include <stdlib.h>
 #include <string.h>
 /**
- * _strdup - main
- * @str: argc
- *
+ * _str_concat - main
+ * @s1: argc
+ * @s2: s2
  * Return: absolute value of @n
  */
 char *str_concat(char *s1, char *s2)
@@ -12,6 +12,15 @@ char *str_concat(char *s1, char *s2)
 	int i;
 	int s1_len = 0;
 	int s2_len = 0;
+
+	if (s1 == NULL)
+        {
+                *s1 = '\0';
+        }
+        if (s2 == NULL)
+        {
+                *s2 = '\0';
+        }
 
 	for (i = 0; s1[i] != '\0'; i++)
 	{
