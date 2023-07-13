@@ -3,7 +3,7 @@
 /**
  * _calloc - main
  * @nmemb: s
- * size : s
+ * @size : s
  *
  * Return: absolute value of @n
  */
