@@ -7,10 +7,12 @@
  */
 void *malloc_checked(unsigned int b)
 {
+	char *ar;
+
 	ar = malloc(b);
 	if (ar == NULL)
 	{
 		return (98);
 	}
-	return (ar)
+	return (ar);
 }
