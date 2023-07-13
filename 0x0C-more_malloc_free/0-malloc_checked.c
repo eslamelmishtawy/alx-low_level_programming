@@ -1,3 +1,5 @@
+#include "main.h"
+
 /**
  * malloc_checked - main
  * @b: s
