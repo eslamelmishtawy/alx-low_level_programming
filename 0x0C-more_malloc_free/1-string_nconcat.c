@@ -1,6 +1,4 @@
-#include <stdlib.h>
-#include <string.h>
-#include <stdio.h>
+#include "main.h"
 
 /**
  * string_nconcat - main
