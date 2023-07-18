@@ -18,4 +18,6 @@ struct dog
 
 typedef struct dog d;
 
+void print_dog(struct dog *d);
+
 #endif
