@@ -7,7 +7,7 @@
  * @age: Second member
  * @owner: Third member
  *
- * Description: Longer description
+ * Return: Longer description
  */
 dog_t *new_dog(char *name, float age, char *owner)
 {
