@@ -1,7 +1,7 @@
 #include "lists.h"
 
 /**
- * sum_listin - frees listint_t
+ * sum_listint - frees listint_t
  * @head: double pointer to the head of the list
  * Return: void
  */
