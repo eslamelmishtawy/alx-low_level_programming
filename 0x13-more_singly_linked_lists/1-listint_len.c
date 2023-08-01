@@ -1,7 +1,7 @@
 #include "lists.h"
 
 /**
- * listint_n - check the code
+ * listint_len - check the code
  * @h: h
  * Return: Always 0.
  */
