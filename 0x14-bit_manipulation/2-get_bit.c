@@ -8,7 +8,7 @@
  */
 int get_bit(unsigned long int n, unsigned int index)
 {
-	unsigned long k = 0x01;
+	unsigned long int k = 0x01;
 
 	k = k << index;
 	if (k == 0)
