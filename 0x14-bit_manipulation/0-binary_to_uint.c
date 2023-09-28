@@ -44,7 +44,7 @@ unsigned int binary_to_uint(const char *b)
 unsigned int power(unsigned int counter)
 {
 	unsigned int power = 1, i;
-	
+
 	for (i = 1; i <= counter; i++)
 	{
 		power = power * 2;
