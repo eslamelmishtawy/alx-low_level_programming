@@ -6,7 +6,7 @@
  * @m: index
  * Return: Always 0.
  */
-int clear_bit(unsigned long int n, unsigned long int m)
+int flip_bits(unsigned long int n, unsigned long int m)
 {
 	unsigned long int x = n ^ m;
 	int counter = 0;
