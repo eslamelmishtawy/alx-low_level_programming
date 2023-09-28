@@ -20,6 +20,8 @@ unsigned int binary_to_uint(const char *b)
 	b--;
 	while (i != 0)
 	{
+		if (*b == NULL)
+			return (0);
 		if (*b != 48 && *b != 49)
 			return (0);
 		if (*b == 49)
