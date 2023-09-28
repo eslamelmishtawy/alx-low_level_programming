@@ -1,9 +1,7 @@
 #include "main.h"
 
 /**
- * flip_bits - check the code
- * @n: decimal number
- * @m: index
+ * get_endianness - check the code
  * Return: Always 0.
  */
 int get_endianness(void);
