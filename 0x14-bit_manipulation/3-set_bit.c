@@ -1,14 +1,13 @@
 #include "main.h"
 
 /**
- * get_bit - check the code
+ * set_bit - check the code
  * @n: decimal number
  * @index: index
  * Return: Always 0.
  */
 int set_bit(unsigned long int *n, unsigned int index)
 {
-	
 	if (index > sizeof(unsigned long int) * 8)
 		return (-1);
 	*n = *n | (1 << index);
