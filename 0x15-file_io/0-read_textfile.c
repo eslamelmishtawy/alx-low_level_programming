@@ -3,7 +3,7 @@
 /**
  * read_textfile - check the code
  * @filename: f
- * letters: l
+ * @letters: l
  * Return: Always 0.
  */
 ssize_t read_textfile(const char *filename, size_t letters)
@@ -22,4 +22,5 @@ ssize_t read_textfile(const char *filename, size_t letters)
 	wr = write(STDOUT_FILENO, buffer, rd);
 	close(fd);
 	free(buffer);
+	return (wr);
 }
