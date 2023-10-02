@@ -24,8 +24,7 @@ void cp_from_to(const char *from, const char *to)
 		dprintf(STDERR_FILENO, "Error: Can't write to %s\n", to);
 		exit(99);
 	}
-	while (bytes)
-	{
+	do {
 		bytes = read(df_from, buffer, 1024);
 		if (bytes == -1)
 		{
@@ -37,7 +36,7 @@ void cp_from_to(const char *from, const char *to)
 			dprintf(STDERR_FILENO, "Error: Can't write to %s\n", to);
 			exit(99);
 		}
-	}
+	} while (bytes);
 
 	stat = close(df_from);
 	if (stat == -1)
