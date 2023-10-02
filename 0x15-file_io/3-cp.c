@@ -57,7 +57,7 @@ void cp_from_to(const char *from, const char *to)
  * @argv: l
  * Return: Always 0.
  */
-int main(int argc, char *argv[])
+int main(int argc, char **argv)
 {
 	if (argc != 3)
 	{
