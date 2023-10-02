@@ -16,7 +16,7 @@ void cp_from_to(const char *from, const char *to)
 	if (!from || fd_from == -1)
 		dprintf(STDERR_FILENO, "Error: Can't read from file %s\n", from), exit(98);
 	fd_to = open(to, O_WRONLY | O_CREAT | O_TRUNC | O_APPEND, 0664);
-	if (fd_to == -1)
+	if (!to || fd_to == -1)
 		dprintf(STDERR_FILENO, "Error: Can't write to %s\n", to), exit(99);
 	do {
 		bytes = read(fd_from, buffer, 1024);
