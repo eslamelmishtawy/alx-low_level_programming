@@ -2,7 +2,8 @@
 
 /**
  * add_dnodeint - check the code
- * @h: h
+ * @head: h
+ * @n: n
  * Return: Always EXIT_SUCCESS.
  */
 dlistint_t *add_dnodeint(dlistint_t **head, const int n)
