@@ -33,7 +33,7 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 
 }
 
-hash_node_t *create_item(char* key, char* value)
+hash_node_t *create_item(char *key, char *value)
 {
 	hash_node_t *new_item;
 
