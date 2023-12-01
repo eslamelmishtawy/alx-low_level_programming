@@ -1,5 +1,12 @@
 #include "hash_tables.h"
 
+/**
+ * hash_table_set - table
+ * @ht: table
+ * @key: key
+ * @value: value
+ * Return: 0 or 1
+ */
 int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 {
 	unsigned long int index;
@@ -32,7 +39,13 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 
 
 }
-
+/**
+ * create_item - create node
+ * @key: key
+ * @value: value
+ *
+ * Return: Node
+ */
 hash_node_t *create_item(const char *key, const char *value)
 {
 	hash_node_t *new_item;
