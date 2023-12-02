@@ -4,7 +4,7 @@
  * hash_table_delete - print table
  * @ht: table
  */
-void hash_table_delete(const hash_table_t *ht)
+void hash_table_delete(hash_table_t *ht)
 {
 	unsigned long int i = 0;
 	hash_node_t *node;
@@ -15,14 +15,16 @@ void hash_table_delete(const hash_table_t *ht)
 	{
 		if (ht->array[i])
 		{
-			node = ht->array[i];
-			while (node)
+			while (ht->array[i])
 			{
+				node = ht->array[i];
 				free(node->key);
 				free(node->value);
-				node = node->next;
-				free(ht->array[i])
+				ht->array[i] = ht->array[i]->next;
+				free(node);
 			}
 		}
 	}
+	free(ht->array);
+	free(ht);
 }
